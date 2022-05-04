@@ -1,4 +1,4 @@
-package main
+package lesson
 
 import "fmt"
 
@@ -21,6 +21,6 @@ complex64, complex128 复数
 go语言支持强制类型转换，但是不支持隐式类型转换
 */
 
-func main() {
+func Lesson_1_2() {
 	fmt.Println("Hello, world!")
 }

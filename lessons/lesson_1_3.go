@@ -1,4 +1,4 @@
-package main
+package lesson
 
 import (
 	"fmt"
@@ -43,7 +43,7 @@ func constants() {
 	fmt.Println(triangle)
 }
 
-func main() {
+func Lesson_1_3() {
 	constants()
 	fmt.Println(math.Pi)
 }

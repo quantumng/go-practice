@@ -1,4 +1,4 @@
-package main
+package lesson
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ go语言指针是不能运算的，但是可以赋值。
 
 */
 
-func main() {
+func Lesson_1_6() {
 	fmt.Println("Hello, World!")
 	var a int = 1
 	var pa *int = &a

@@ -1,4 +1,4 @@
-package main
+package lesson
 
 import (
 	"fmt"
@@ -71,7 +71,7 @@ func countdown(n int) {
 	}
 }
 
-func main() {
+func Lesson_1_4() {
 	fmt.Println(returnBool(1))
 	fmt.Println(returnValue(5))
 	fmt.Println(returnValue(-5))

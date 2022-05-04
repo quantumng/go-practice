@@ -1,4 +1,4 @@
-package main
+package lesson
 
 import "fmt"
 
@@ -23,7 +23,7 @@ var (
 	c1 bool   = true
 )
 
-func main() {
+func Lesson_1_1() {
 	fmt.Println("Hello, world!")
 	fmt.Printf("%d %q\n", a, b)
 }

@@ -1,4 +1,4 @@
-package main
+package lesson
 
 import (
 	"fmt"
@@ -41,7 +41,7 @@ func funcArgs(f func(a, b int) (r, q int), c, d int, op string) int {
 	return operation(one, two, op)
 }
 
-func main() {
+func Lesson_1_5() {
 
 	fmt.Println(operation(1, 2, "+"))
 
